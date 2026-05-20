@@ -10,3 +10,11 @@
     object-fit: cover;
     z-index: -1;
 }
+#choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
