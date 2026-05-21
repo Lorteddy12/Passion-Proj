@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<video autoplay muted loop playsinline id="background-video">
+    <source src="background.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<body>
+    <h1 onclick="goBack()" class="BackBtn">Back</h1>
+
+    <div class="contain">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out using the form below!</p>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
